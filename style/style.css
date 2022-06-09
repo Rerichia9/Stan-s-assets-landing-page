@@ -361,15 +361,11 @@ body {
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  width: 330px;
+  width: 100%;
 }
 
 .slider__content {
   max-width: 800px;
-}
-
-.slider__content-2 {
-  max-width: 1000px;
 }
 
 .slider__title {
