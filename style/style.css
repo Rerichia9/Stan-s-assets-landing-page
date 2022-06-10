@@ -50,13 +50,13 @@ img {
 .btn:hover {
   background-color: #66D6A0;
   outline-color: #66D6A0;
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .btn:active {
   background-color: #0B9854;
   outline-color: #0B9854;
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .list-reset {
@@ -256,11 +256,13 @@ body {
 .header__list-link:focus-visible,
 .header__list-link:hover {
   color: var(--active-color);
+  transition: .15s ease-out;
 }
 
 .sub__list-link:focus-visible,
 .sub__list-link:hover {
   color: var(--active-color);
+  transition: .15s ease-out;
 }
 
 .header__list-item:focus-visible .sub__list,
@@ -285,6 +287,12 @@ body {
 .header__list-link:focus-visible>.arrow path,
 .header__list-link:hover>.arrow path {
   fill: var(--active-color);
+  transition: .15s ease-out;
+}
+
+.header__list-link:hover .arrow {
+  transform: rotate(180deg);
+  transition: .15s ease-out;
 }
 
 /* slider ===================================================================================================================================================================================*/
@@ -450,7 +458,7 @@ body {
 .tech__review:focus-visible,
 .tech__review:hover {
   box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.55);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .review__logo {
@@ -507,7 +515,7 @@ body {
 .tech__link:focus-visible,
 .tech__link:hover {
   transform: scale(1.2);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 /* Services =================================================================================================================================================================================== */
@@ -639,7 +647,7 @@ body {
 .looking__btn:hover {
   background-color: var(--hover-color);
   color: var(--white-color);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
   outline: 2px solid var(--hover-color);
 }
 
@@ -781,13 +789,13 @@ body {
   outline: 1px solid var(--main-yellow-color);
   outline-offset: 3px;
   opacity: 0;
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .partners__item:focus-visible,
 .partners__item:hover {
   transform: scale(1.1);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .partners__btn {
@@ -866,7 +874,7 @@ body {
 .contacts__item:focus-visible,
 .contacts__item:hover {
   transform: scale(1.1);
-  transition: .2s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .contacts__left-block {
@@ -902,12 +910,12 @@ body {
 .form__general:focus-visible,
 .form__general:hover {
   border: 1px solid var(--active-color);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .form__general:active::placeholder {
   color: var(--main-white-color);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .form__input {
@@ -943,12 +951,12 @@ body {
 .form__btn:focus-visible,
 .form__btn:hover {
   background-color: var(--hover-color);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .form__btn:active {
   background-color: var(--green-color);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .contacts__right-block {
@@ -1040,12 +1048,13 @@ body {
 .footer__social-item:focus-visible,
 .footer__social-item:hover {
   transform: scale(1.2);
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .footer__social-item:focus-visible path,
 .footer__social-item:hover path {
   fill: var(--hover-color);
+  transition: .15s ease-out;
 }
 
 .footer__social-item path {
@@ -1059,7 +1068,7 @@ body {
 .footer__item:focus-visible,
 .footer__item:hover {
   border-bottom: 2px;
-  transition: .3s ease-in-out;
+  transition: .15s ease-out;
 }
 
 .footer__link:active {
@@ -1068,6 +1077,7 @@ body {
 
 .footer__item:hover {
   transform: scale(1.2);
+  transition: .15s ease-out;
 }
 
 /* sub-footer ===================================================================================================================================================================================*/
@@ -1084,6 +1094,12 @@ body {
 
 .bub-footer__right-item:first-child {
   margin-right: 140px;
+}
+
+.bub-footer__right-item:focus-visible,
+.bub-footer__right-item:hover {
+  transform: scale(1.1);
+  transition: .15s ease-out;
 }
 
 /* tippy ===================================================================================================================================================================================*/
