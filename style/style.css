@@ -50,13 +50,13 @@ img {
 .btn:hover {
   background-color: #66D6A0;
   outline-color: #66D6A0;
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .btn:active {
   background-color: #0B9854;
   outline-color: #0B9854;
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .list-reset {
@@ -515,7 +515,7 @@ body {
 .tech__link:focus-visible,
 .tech__link:hover {
   transform: scale(1.2);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 /* Services =================================================================================================================================================================================== */
@@ -647,7 +647,7 @@ body {
 .looking__btn:hover {
   background-color: var(--hover-color);
   color: var(--white-color);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
   outline: 2px solid var(--hover-color);
 }
 
@@ -795,7 +795,7 @@ body {
 .partners__item:focus-visible,
 .partners__item:hover {
   transform: scale(1.1);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .partners__btn {
@@ -874,7 +874,7 @@ body {
 .contacts__item:focus-visible,
 .contacts__item:hover {
   transform: scale(1.1);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .contacts__left-block {
@@ -951,12 +951,12 @@ body {
 .form__btn:focus-visible,
 .form__btn:hover {
   background-color: var(--hover-color);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .form__btn:active {
   background-color: var(--green-color);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .contacts__right-block {
@@ -1048,13 +1048,13 @@ body {
 .footer__social-item:focus-visible,
 .footer__social-item:hover {
   transform: scale(1.2);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .footer__social-item:focus-visible path,
 .footer__social-item:hover path {
   fill: var(--hover-color);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .footer__social-item path {
@@ -1068,7 +1068,7 @@ body {
 .footer__item:focus-visible,
 .footer__item:hover {
   border-bottom: 2px;
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 .footer__link:active {
@@ -1077,7 +1077,7 @@ body {
 
 .footer__item:hover {
   transform: scale(1.2);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 /* sub-footer ===================================================================================================================================================================================*/
@@ -1099,7 +1099,7 @@ body {
 .bub-footer__right-item:focus-visible,
 .bub-footer__right-item:hover {
   transform: scale(1.1);
-  transition: .15s ease-out;
+  transition: .3s ease-out;
 }
 
 /* tippy ===================================================================================================================================================================================*/
